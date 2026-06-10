@@ -1,0 +1,20 @@
+features:
+  numeric:
+    - dd
+    - ddd
+
+  categorical:
+    - dd
+    - dd
+
+  target: ddd
+
+
+config:
+  data_raw: "../data/external/customer_churn_temporal_dataset.csv"
+  random_state: 42
+
+mlflow:
+  experiment_name: proyecto-churn
+  tracking_uri:
+  model_name: proyecto-churn
