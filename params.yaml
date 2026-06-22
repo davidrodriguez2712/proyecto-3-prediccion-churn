@@ -1,13 +1,22 @@
 features:
   numeric:
-    - dd
-    - ddd
+    - tenure_months
+    - age
+    - active_days_last_month
+    - marketing_emails_opened
+    - support_calls
+    - complaints_last_3m
+    - late_payments
+    - usage_minutes
+    - monthly_charges
 
   categorical:
-    - dd
-    - dd
+    - region
+    - payment_method
+    - contract_type
 
-  target: ddd
+  target: churn
+  period: period
 
 
 config:
@@ -15,6 +24,6 @@ config:
   random_state: 42
 
 mlflow:
-  experiment_name: proyecto-churn
-  tracking_uri:
+  experiment_name: Proyecto-3-prediccion-churn
+  tracking_uri: https://dagshub.com/davidrodriguez2712/proyecto-3-prediccion-churn.mlflow
   model_name: proyecto-churn

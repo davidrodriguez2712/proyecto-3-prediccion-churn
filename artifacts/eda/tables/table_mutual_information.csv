@@ -1,0 +1,10 @@
+,feature,mutual_info
+0,support_calls,0.003524331886542331
+1,complaints_last_3m,0.0028162496064170206
+2,active_days_last_month,0.0026242188274483436
+3,age,0.0019256568727181733
+4,late_payments,0.0018238724363996983
+5,usage_minutes,0.0009580720960076228
+6,tenure_months,0.0005263229811212078
+7,marketing_emails_opened,0.0
+8,monthly_charges,0.0

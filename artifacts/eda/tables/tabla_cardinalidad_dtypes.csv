@@ -1,0 +1,16 @@
+feature,tipo,cardinalidad
+customer_id,str,3000
+region,str,6
+payment_method,str,5
+contract_type,str,4
+tenure_months,int64,70
+age,int64,52
+active_days_last_month,int64,39
+marketing_emails_opened,int64,10
+support_calls,int64,8
+complaints_last_3m,int64,5
+late_payments,int64,3
+churn,int64,2
+usage_minutes,float64,23943
+monthly_charges,float64,2355
+period,datetime64[us],48
