@@ -24,6 +24,7 @@ config:
   random_state: 42
 
 mlflow:
-  experiment_name: Proyecto-3-prediccion-churn
+  repo_name: proyecto-3-prediccion-churn
   tracking_uri: https://dagshub.com/davidrodriguez2712/proyecto-3-prediccion-churn.mlflow
+  experiment_name: Proyecto-3-prediccion-churn
   model_name: proyecto-churn
