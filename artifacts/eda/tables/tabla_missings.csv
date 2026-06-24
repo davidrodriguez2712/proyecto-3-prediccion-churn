@@ -3,14 +3,14 @@ customer_id,0,0.0
 period,0,0.0
 tenure_months,0,0.0
 age,0,0.0
-region,0,0.0
-contract_type,0,0.0
 monthly_charges,0,0.0
 usage_minutes,0,0.0
 support_calls,0,0.0
 complaints_last_3m,0,0.0
-payment_method,0,0.0
 late_payments,0,0.0
 marketing_emails_opened,0,0.0
 active_days_last_month,0,0.0
+region,0,0.0
+contract_type,0,0.0
+payment_method,0,0.0
 churn,0,0.0

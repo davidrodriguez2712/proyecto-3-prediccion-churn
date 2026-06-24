@@ -20,8 +20,12 @@ features:
 
 
 config:
-  data_raw: "../data/external/customer_churn_temporal_dataset.csv"
+  data_raw: "../data/external/customer_churn_simulated.csv"
+  data_train_fe: "../data/processed/train_fe_full.parquet"
+  data_test_fe: "../data/processed/test_fe_full.parquet"
+  data_oot_fe: "../data/processed/oot_fe_full.parquet"
   random_state: 42
+
 
 mlflow:
   repo_name: proyecto-3-prediccion-churn

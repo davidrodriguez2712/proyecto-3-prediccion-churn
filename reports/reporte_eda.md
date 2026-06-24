@@ -1,7 +1,7 @@
 ## Reporte EDA - Churn Prediction
 === Reporte de Data Overview ===
 
-Forma del dataset                          : 33129 filas | 15 columnas
+Forma del dataset                          : 480000 filas | 15 columnas
 Target                                     : "churn" -> Binaria (0, 1)
 Cantidad de Features Numéricas             : 9
 Cantidad de Features Categóricas           : 3
@@ -50,9 +50,9 @@ Posible features con OHE:
 
 Se observa que la cantidad de registros por período es mayor en los primeros meses 
 y tiene una tendencia decreciente hasta el final del mismo.
-    - Registros en Train   : 90.80%
-    - Registros en Test    : 7.02%
-    - Registros en OOT     : 2.19%
+    - Registros en Train   : 50.00%
+    - Registros en Test    : 25.00%
+    - Registros en OOT     : 25.00%
 
 Respecto al Churn Rate por período, se observa que tanto el período de Train y Test
 son muy similares en comportamiento con igual promedio global de ambos.
